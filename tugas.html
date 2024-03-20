@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -454,6 +454,7 @@ document.write(`
 <ul class="simple">
 <li><p>Hitung akurasi dan perbandingan tiap metode</p></li>
 </ul>
+<p><img alt="Gambar Iris" src="https://drive.google.com/uc?export=view&amp;id=1_fd9T2YoBGCg3B3JgbDwLor4rLULPb0F" /></p>
 </section>
 <section id="menampilkan-data">
 <h2>1.2 Menampilkan Data<a class="headerlink" href="#menampilkan-data" title="Link to this heading">#</a></h2>
@@ -1654,6 +1655,7 @@ dtype: int64
 <section id="penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn">
 <h2>3.3 Penanganan missing value dengan metode K Nearest Neightbour (KNN)<a class="headerlink" href="#penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn" title="Link to this heading">#</a></h2>
 <p>Nearest Neightbour jika di translasikan menjad bahasa indonesia adalah tetangga terdekat. Dan  K yang dimaksud adalah jumlah tetangga tedekat. Jadi dapat di definisikan bahwa K Nearest Neightbour (KNN) merupakan metode dengan mencari jumlah tetangga terdekat dan akan dilakukan perbandingan class untuk memprediksi klasifikasi data baru. Adapun cara kerjanya bisa disimak dibawah ini.</p>
+<p><img alt="cara kerja knn" src="https://drive.google.com/uc?export=view&amp;id=1EEgGHk6pnE45y0r2ytePH4OikU5HDdhW" /></p>
 <p>Cara kerja K Nearest Neightbour (KNN)</p>
 <ol class="arabic simple">
 <li><p>Look at the data (Melihat pada data)</p></li>
@@ -1667,12 +1669,14 @@ dtype: int64
 <li><p>Euclidean Distance</p></li>
 </ul>
 <p>Merupakan teknik yang paling populer untuk melakukan perhitungan jarak fitur dengan tipe data numerik. Untuk rumus pengukuran jarak adalah sebagai berikut ini.</p>
+<p><img alt="euclidean" src="https://drive.google.com/uc?export=view&amp;id=1nOICwEY_afB0Ne1X10C7E13KJ_JwOxeB" /></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{(p_{1} - q_{1})^2 + (p_{2} - q_{2})^2 + ... + (p_{n} - q_{n})^2}\)</span></p>
 <ul class="simple">
 <li><p>Manhattan Distance</p></li>
 </ul>
 <p>Manhattan distance juga begitu populer selain euclidean distance. Jika kita perhatikan gambar diatas yang merupakan perbandingan antara euclidean distance dan manhattan distance. Dapat dilihat jika euclidean distance merupakan pengukuran jarak terobos antara dua titik kordinat. Sedangkan manhattan berbeda. teknik manhattan berjalan pada grid dan tidak menerobos seperti euclidean. Rumus perhitungan jarak dapat diihat berikut ini.</p>
+<p><img alt="cara kerja knn" src="https://drive.google.com/uc?export=view&amp;id=1DQ1lBwV98zQeZENmqAp6h3oTOuvrEL6m" /></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = (p_{i} - q_{i})^2\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Find neightbour (Mencari tetangga)</p></li>
