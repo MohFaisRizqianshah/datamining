@@ -454,8 +454,7 @@ document.write(`
 <ul class="simple">
 <li><p>Hitung akurasi dan perbandingan tiap metode</p></li>
 </ul>
-<p><img alt="Gambar Iris" src="https://drive.google.com/uc?export=view&amp;id=1_fd9T2YoBGCg3B3JgbDwLor4rLULPb0F" /></p>
-</section>
+<img src="image-20240313-143054.png" width="" align="" /></section>
 <section id="menampilkan-data">
 <h2>1.2 Menampilkan Data<a class="headerlink" href="#menampilkan-data" title="Link to this heading">#</a></h2>
 <section id="inisialisasi">
@@ -1655,9 +1654,8 @@ dtype: int64
 <section id="penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn">
 <h2>3.3 Penanganan missing value dengan metode K Nearest Neightbour (KNN)<a class="headerlink" href="#penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn" title="Link to this heading">#</a></h2>
 <p>Nearest Neightbour jika di translasikan menjad bahasa indonesia adalah tetangga terdekat. Dan  K yang dimaksud adalah jumlah tetangga tedekat. Jadi dapat di definisikan bahwa K Nearest Neightbour (KNN) merupakan metode dengan mencari jumlah tetangga terdekat dan akan dilakukan perbandingan class untuk memprediksi klasifikasi data baru. Adapun cara kerjanya bisa disimak dibawah ini.</p>
-<p><img alt="cara kerja knn" src="https://drive.google.com/uc?export=view&amp;id=1EEgGHk6pnE45y0r2ytePH4OikU5HDdhW" /></p>
 <p>Cara kerja K Nearest Neightbour (KNN)</p>
-<ol class="arabic simple">
+<img src="image-20240314-093346.png" width="50%" align="" /><ol class="arabic simple">
 <li><p>Look at the data (Melihat pada data)</p></li>
 </ol>
 <p>Berdasarkan pada gambar diata. node atau tiitk berwarna abu-abu merupakan data baru. data ini akan nantinya akan diklasifikasikan dengan class-class pada digram. Jika kita perhatikan, terdapat tiga node yang berbeda warna, yaitu kuning, hijau, dan jingga. Hal ini berarti terdapat tiga class dalam diagram. node yang berwarna abu-abu akan diprediksi dengan algoritma KNN untuk menentukan node ini termasuk ke dalam salah satu class.</p>
@@ -1669,15 +1667,13 @@ dtype: int64
 <li><p>Euclidean Distance</p></li>
 </ul>
 <p>Merupakan teknik yang paling populer untuk melakukan perhitungan jarak fitur dengan tipe data numerik. Untuk rumus pengukuran jarak adalah sebagai berikut ini.</p>
-<p><img alt="euclidean" src="https://drive.google.com/uc?export=view&amp;id=1nOICwEY_afB0Ne1X10C7E13KJ_JwOxeB" /></p>
-<p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
+<img src="image-20240314-093513.png" width="50%" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{(p_{1} - q_{1})^2 + (p_{2} - q_{2})^2 + ... + (p_{n} - q_{n})^2}\)</span></p>
 <ul class="simple">
 <li><p>Manhattan Distance</p></li>
 </ul>
 <p>Manhattan distance juga begitu populer selain euclidean distance. Jika kita perhatikan gambar diatas yang merupakan perbandingan antara euclidean distance dan manhattan distance. Dapat dilihat jika euclidean distance merupakan pengukuran jarak terobos antara dua titik kordinat. Sedangkan manhattan berbeda. teknik manhattan berjalan pada grid dan tidak menerobos seperti euclidean. Rumus perhitungan jarak dapat diihat berikut ini.</p>
-<p><img alt="cara kerja knn" src="https://drive.google.com/uc?export=view&amp;id=1DQ1lBwV98zQeZENmqAp6h3oTOuvrEL6m" /></p>
-<p><span class="math notranslate nohighlight">\(d(P,Q) = (p_{i} - q_{i})^2\)</span></p>
+<img src="image-20240314-093921.png" width="" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = (p_{i} - q_{i})^2\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Find neightbour (Mencari tetangga)</p></li>
 </ol>
@@ -1871,8 +1867,7 @@ dtype: int64
 </section>
 <section id="menghitung-manual-local-outlier-factor">
 <h3>3.5.2 Menghitung manual Local Outlier Factor<a class="headerlink" href="#menghitung-manual-local-outlier-factor" title="Link to this heading">#</a></h3>
-<p>data contoh data dengan tipe numerik 3 fitur jumlah data 10 k=3 p=2 (euclidian distance)</p>
-<p>Contoh 10 data 3 fitur dengan k=3 dan p=2</p>
+<img src="Screenshot_35.png" width="" align="" /><p>Data yang merukapan data outlier adalah data ke-10 jika dilihat dari hasil perhitungan LOF menggunakan perhitungan manual excel</p>
 </section>
 <section id="menghitung-menggunakan-python-scikit-learn">
 <h3>3.5.3 Menghitung menggunakan python (Scikit Learn)<a class="headerlink" href="#menghitung-menggunakan-python-scikit-learn" title="Link to this heading">#</a></h3>
@@ -1882,16 +1877,16 @@ dtype: int64
 
 <span class="c1"># Contoh dataset</span>
 <span class="n">data_out</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">11</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">12</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
-    <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">]</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
 <span class="p">]</span>
 
 <span class="c1"># Membuat objek LOF</span>
@@ -1908,11 +1903,12 @@ dtype: int64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LOF Scores: [1.012 0.981 1.403 1.588 0.99  1.403 1.726 1.079 0.99  1.403]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LOF Scores: [1.031 1.002 0.998 0.974 0.998 1.002 0.943 0.998 0.974 3.151]
 </pre></div>
 </div>
 </div>
 </div>
+<p>Data yang merukapan data outlier adalah data ke-10 jika dilihat dari hasil perhitungan LOF menggunakan library Scikit Learn</p>
 </section>
 <section id="implementasi-local-outlier-factor-pada-data-iris">
 <h3>3.5.4 Implementasi Local Outlier Factor pada data Iris<a class="headerlink" href="#implementasi-local-outlier-factor-pada-data-iris" title="Link to this heading">#</a></h3>
