@@ -471,7 +471,7 @@ document.write(`
 <ul class="simple">
 <li><p>Hitung akurasi dan perbandingan tiap metode</p></li>
 </ul>
-<img src="image-20240313-143054.png" width="" align="" /></section>
+<img src="_images/rsz_1bunga-iris-3.jpg" width="" align="" /></section>
 <section id="menampilkan-data">
 <h2>1.2 Menampilkan Data<a class="headerlink" href="#menampilkan-data" title="Link to this heading">#</a></h2>
 <section id="inisialisasi">
@@ -1672,7 +1672,7 @@ dtype: int64
 <h2>3.3 Penanganan missing value dengan metode K Nearest Neightbour (KNN)<a class="headerlink" href="#penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn" title="Link to this heading">#</a></h2>
 <p>Nearest Neightbour jika di translasikan menjad bahasa indonesia adalah tetangga terdekat. Dan  K yang dimaksud adalah jumlah tetangga tedekat. Jadi dapat di definisikan bahwa K Nearest Neightbour (KNN) merupakan metode dengan mencari jumlah tetangga terdekat dan akan dilakukan perbandingan class untuk memprediksi klasifikasi data baru. Adapun cara kerjanya bisa disimak dibawah ini.</p>
 <p>Cara kerja K Nearest Neightbour (KNN)</p>
-<img src="image-20240314-093346.png" width="50%" align="" /><ol class="arabic simple">
+<img src="_images/cara kerja knn.png" width="50%" align="" /><ol class="arabic simple">
 <li><p>Look at the data (Melihat pada data)</p></li>
 </ol>
 <p>Berdasarkan pada gambar diata. node atau tiitk berwarna abu-abu merupakan data baru. data ini akan nantinya akan diklasifikasikan dengan class-class pada digram. Jika kita perhatikan, terdapat tiga node yang berbeda warna, yaitu kuning, hijau, dan jingga. Hal ini berarti terdapat tiga class dalam diagram. node yang berwarna abu-abu akan diprediksi dengan algoritma KNN untuk menentukan node ini termasuk ke dalam salah satu class.</p>
@@ -1684,13 +1684,13 @@ dtype: int64
 <li><p>Euclidean Distance</p></li>
 </ul>
 <p>Merupakan teknik yang paling populer untuk melakukan perhitungan jarak fitur dengan tipe data numerik. Untuk rumus pengukuran jarak adalah sebagai berikut ini.</p>
-<img src="image-20240314-093513.png" width="50%" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
+<img src="_images/rsz_rumus_euclidian.png" width="50%" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{(p_{1} - q_{1})^2 + (p_{2} - q_{2})^2 + ... + (p_{n} - q_{n})^2}\)</span></p>
 <ul class="simple">
 <li><p>Manhattan Distance</p></li>
 </ul>
 <p>Manhattan distance juga begitu populer selain euclidean distance. Jika kita perhatikan gambar diatas yang merupakan perbandingan antara euclidean distance dan manhattan distance. Dapat dilihat jika euclidean distance merupakan pengukuran jarak terobos antara dua titik kordinat. Sedangkan manhattan berbeda. teknik manhattan berjalan pada grid dan tidak menerobos seperti euclidean. Rumus perhitungan jarak dapat diihat berikut ini.</p>
-<img src="image-20240314-093921.png" width="" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = (p_{i} - q_{i})^2\)</span></p>
+<img src="_images/rumus manhattan.png" width="" align="" /><p><span class="math notranslate nohighlight">\(d(P,Q) = (p_{i} - q_{i})^2\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Find neightbour (Mencari tetangga)</p></li>
 </ol>
@@ -1884,7 +1884,7 @@ dtype: int64
 </section>
 <section id="menghitung-manual-local-outlier-factor">
 <h3>3.5.2 Menghitung manual Local Outlier Factor<a class="headerlink" href="#menghitung-manual-local-outlier-factor" title="Link to this heading">#</a></h3>
-<img src="Screenshot_35.png" width="" align="" /><p>Data yang merukapan data outlier adalah data ke-10 jika dilihat dari hasil perhitungan LOF menggunakan perhitungan manual excel</p>
+<img src="_images/lof_manual.png" width="" align="" /><p>Data yang merukapan data outlier adalah data ke-10 jika dilihat dari hasil perhitungan LOF menggunakan perhitungan manual excel</p>
 </section>
 <section id="menghitung-menggunakan-python-scikit-learn">
 <h3>3.5.3 Menghitung menggunakan python (Scikit Learn)<a class="headerlink" href="#menghitung-menggunakan-python-scikit-learn" title="Link to this heading">#</a></h3>
@@ -2091,7 +2091,7 @@ dtype: int64
 <section id="metode-gaussian-naive-bayes">
 <h3>Metode Gaussian Naive Bayes<a class="headerlink" href="#metode-gaussian-naive-bayes" title="Link to this heading">#</a></h3>
 <p>Gaussian Naive Bayes merupakan sebuah teknik klasifikasi yang digunakan dalam machine learning dengan menggunakan metode probability dan Distribusi Gaussian atau Distiribusi Normal. Gaussian Distribution mengasumsikan bahwa setiap feature pada data memiliki penngaruh yang independent dalam memprediksi target. Kombinasi prediksi dari seluruh parameter adalah prediksi akhir dengan probability dari target variable yang diklasifikasikan ke dalam dua kelas. Klasifikasi akhirnya adalah hasil probability yang lebih tinggi dari grup target maka itu adalah kelas dari suatu data.</p>
-<img src="image-20240404-094505.png" width="" align="" /></section>
+<img src="_images/metode_gnb.png" width="" align="" /></section>
 <section id="perhitungan-manual-naive-bayes">
 <h3>Perhitungan Manual Naive Bayes<a class="headerlink" href="#perhitungan-manual-naive-bayes" title="Link to this heading">#</a></h3>
 <p>Langkah-langkah perhitungan pada naive bayes yaitu:</p>
@@ -2101,15 +2101,15 @@ dtype: int64
 <ol class="arabic simple" start="2">
 <li><p>Menghitung probabilitas data train</p></li>
 </ol>
-<img src="image-20240404-094619.png" width="" align="" /><ol class="arabic simple" start="3">
+<img src="_images/rumus_prob.png" width="" align="" /><ol class="arabic simple" start="3">
 <li><p>hitung mean dan standart devisiasi dari setiap fitur beserta setiap kelas pada data train</p></li>
 <li><p>tentukan suatu inputan data sepalLength, sepalWidth, petalLength, petalWidth</p></li>
 <li><p>hitung distribusi gausiaan setiap fitur beserta setiap kelas pada data train</p></li>
 </ol>
-<img src="image-20240404-094657.png" width="" align="" /><ol class="arabic simple" start="6">
+<img src="_images/rumus_distrib_gauss.png" width="" align="" /><ol class="arabic simple" start="6">
 <li><p>hitung posteriori dari setiap kelas</p></li>
 </ol>
-<img src="image-20240404-094730.png" width="" align="" /><ol class="arabic simple" start="7">
+<img src="_images/rumus_posteriori.png" width="" align="" /><ol class="arabic simple" start="7">
 <li><p>tentukan maximum posteriori</p></li>
 <li><p>pada kelas yg mendapat posteriori maksimal itulah kelas dari data inputan baru tersebut</p></li>
 </ol>
@@ -2138,14 +2138,14 @@ dtype: int64
 <p>P(a) : probabilitas
 n(a) : banyaknya record data train pada suatu kelas (40)
 N : total banyaknya record data train (40+40+40=120)Data Train	n(a)	p(a)</p>
-<img src="image-20240416-164714.png" width="" align="" /></section>
+<img src="_images/prob_train.png" width="" align="" /></section>
 <section id="menghitung-mean-dan-standard-deviasi">
 <h3>Menghitung mean dan standard deviasi<a class="headerlink" href="#menghitung-mean-dan-standard-deviasi" title="Link to this heading">#</a></h3>
 <p>hitunglah mean dan standart devisiasi dari masing-masing fitur pada setiap kelas di data train.
 untuk rumus di excel sebagai berikut :</p>
 <p>mean : =AVERAGEIF( kolom jenis; target jenis; data )
 standard devisiasi : =STDEV.S( IF(kolom jenis = target jenis; data ))</p>
-<img src="image-20240416-165238.png" width="" align="" /></section>
+<img src="_images/mean_stdev.png" width="" align="" /></section>
 <section id="membuat-inputan-x">
 <h3>Membuat Inputan (X)<a class="headerlink" href="#membuat-inputan-x" title="Link to this heading">#</a></h3>
 <p>Buat suatu data acak untuk inputan sepalLength, sepalWidth, petalLength, dan petalWidth. Nantinya data ini akan kita gunakan untuk menguji hasil dari perhitungan excel kita sehingga kita bisa tahu termasuk kelas apakah data dari inputan kita, apakah termasuk ke kelas setosa, versicolor, atau virginica.</p>
@@ -2156,11 +2156,11 @@ standard devisiasi : =STDEV.S( IF(kolom jenis = target jenis; data ))</p>
 <li><p>PetalLengthCm : 5,3</p></li>
 <li><p>PetalWidthCm : 3</p></li>
 </ol>
-<img src="image-20240416-170039.png" width="" align="" /></section>
+<img src="_images/inputan_X.png" width="" align="" /></section>
 <section id="menghitung-distribusi-gaussian">
 <h3>Menghitung distribusi gaussian<a class="headerlink" href="#menghitung-distribusi-gaussian" title="Link to this heading">#</a></h3>
 <p>Setelah didapati mean dan standart devisiasi dari setiap fitur pada setiap kelas, dan juga sudah menentukan inputan. maka langkah selanjutnya adalah memasukkan ke dalam rumus distribusi gaussian.</p>
-<img src="image-20240416-170301.png" width="" align="" /></section>
+<img src="_images/distrib_gauss.png" width="" align="" /></section>
 <section id="menghitung-posteriori">
 <h3>Menghitung posteriori<a class="headerlink" href="#menghitung-posteriori" title="Link to this heading">#</a></h3>
 <p>Setelah didapat semua hasil dari distribusi gaussian, langkah selanjutnya adalah menentukan posteriori-nya.</p>
@@ -2176,7 +2176,7 @@ P(A|H) = 0,176485 * 0,564875 * 0,008557 * 0,000000
 P(a) = 0,333
 posteriori = P(A|Hi) * P(a) = 0,000000</p>
 <p>Berikut ini hasil untuk perhitungan pada kelas lain :</p>
-<img src="image-20240416-170411.png" width="" align="" /></section>
+<img src="_images/posteriori.png" width="" align="" /></section>
 <section id="menentukan-maximum-posteriori">
 <h3>Menentukan maximum posteriori<a class="headerlink" href="#menentukan-maximum-posteriori" title="Link to this heading">#</a></h3>
 <p>Setelah mendapati nilai postriori maka kita dapat menentukan nilai maximum pada posteriori yaitu pada kelas Virginica dengan nilai : 0,002499</p>
